@@ -1,0 +1,1 @@
+export const BASE_URL = "https://api-dbw.stat.gov.pl/api/1.1.0/area/area-area";
