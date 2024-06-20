@@ -7,7 +7,7 @@ type Post = {
     nazwa: string;
 };
 
-const PostList1 = () => {
+const PostList2 = () => {
     const postQuery: UseQueryResult<Post[], Error> = useQuery<Post[], Error>({
         queryKey: ["posts", { lang: "en" }],
         queryFn: () => getPosts("en"),
@@ -30,4 +30,4 @@ const PostList1 = () => {
     );
 };
 
-export default PostList1;
+export default PostList2;
